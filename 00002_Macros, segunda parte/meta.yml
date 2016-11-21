@@ -3,4 +3,11 @@ tags:
 - metaprogramacion
 - macros
 - objetos
-locale: es
+layout: input_right
+editor: code
+type: problem
+extra_visible: false
+language: 
+teacher_info: 
+manual_evaluation: false
+choices: []
