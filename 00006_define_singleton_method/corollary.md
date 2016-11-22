@@ -1,4 +1,4 @@
-¿Qué es esto de _singleton method_? Vamos a tener que entender el metamodelo de Ruby con un poco más de detalle. Afortunadamente es bastante simple:
+¿Qué es esto de _singleton method_? Repasemos el metamodelo de Ruby:
 
 1. Todos los objetos tienen una clase (¡nada wow!)
 2. Todos los objetos tienen una **autoclase** (también llamada _eigenclass_ o _singleton class_). Esta es una clase que es única y propia de cada objeto (no se comparte entre instancias de la misma clase)

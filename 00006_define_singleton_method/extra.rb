@@ -1,0 +1,1 @@
+homero = Object.new
