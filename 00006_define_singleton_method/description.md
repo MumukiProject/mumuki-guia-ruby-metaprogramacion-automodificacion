@@ -1,4 +1,6 @@
-Hasta ahora utilizamos `define_method` para agregar métodos (de instancia) a una clase. ¿Y si queremos agregar métodos de clase? :thought_balloon: Una opción, que ya vimos antes, es agregarlo mediante `def objeto.metodo`:
+Hasta ahora utilizamos `define_method` para agregar métodos (de instancia) a una clase. ¿Y si queremos agregar métodos de clase? :thought_balloon: 
+
+Una opción, que ya vimos antes, es agregarlo mediante `def objeto.metodo`:
 
 ```ruby
 def mi_clase.mi_metodo_de_clase(argumentos)
