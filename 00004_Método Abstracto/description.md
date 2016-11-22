@@ -1,6 +1,6 @@
-En ruby no existe a nivel lenguaje ninguna forma de declarar un método abstracto: al igual que en Smalltak, simplemente no se codifica el método.
+En ruby no existe a nivel lenguaje ninguna forma de declarar un método abstracto: simplemente no se codifica el método.
 
-El problema de esto es que, si nos olvidamos de codificar el método, los mensajes de error pueden ser un poco confusos - obtendremos NoMethodError en algún punto - por lo que muchos hacen lo siguiente:
+El problema de esto es que, si nos olvidamos de codificar el método, los mensajes de error pueden ser un poco confusos - obtendremos `NoMethodError` en algún punto - por lo que muchos hacen lo siguiente:
 
 ```ruby
 class Mercaderia
