@@ -8,7 +8,7 @@ describe "ensure_no_override" do
     expect { class Foo; ensure_no_override :foo; end }.to raise_error
   end
 
-  it "no falla si el método no existia" do
+  it "no falla si el metodo no existia" do
     class Foo
       def foo
       end
