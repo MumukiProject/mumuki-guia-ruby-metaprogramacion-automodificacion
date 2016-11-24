@@ -16,17 +16,17 @@ end
 
 ¿Ves algo en común entre estas dos cosas? Parecería que el lenguaje nos proveyó con construcciones especiales para hacer estas cosas, ¿no?
 
-La realidad es que no son construcciones especiales, sino simplemente mensajes que le están siendo enviados a un objeto: `self`, que es el receptor implícito cuando enviamos mensajes.
+No son construcciones especiales, sino simplemente mensajes que le están siendo enviados a un objeto: `self`, que es el receptor implícito cuando enviamos mensajes.
 
 Ahora bien, ¿quién es `self` dentro de la clase? ¿Te acordás?
 
-> Recordalo probando el siguiente código. _Y si no entendés que es lo que estamos haciendo acá, mirá la ayuda_:
-
-```ruby
-class Arco
-  self
-end
-```
+> Recordalo probando el siguiente código.
+>
+> ```ruby
+> class Arco
+>  self
+> end
+>```
 
 
 
