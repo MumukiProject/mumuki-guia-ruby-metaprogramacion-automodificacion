@@ -14,13 +14,9 @@ class Guerrero
 end
 ```
 
-¿Ves algo en común entre estas dos cosas? Parecería que el lenguaje nos proveyó con construcciones especiales para hacer estas cosas, ¿no?
+Contra lo que podríamos pensar, `include`, `attr_reader`, etc, no son palabras reservadas del lenguaje, sino meros mensajes que le estamos enviando a `self` (que es el receptor implícito cuando enviamos mensajes).
 
-No son construcciones especiales, sino simplemente mensajes que le están siendo enviados a un objeto: `self`, que es el receptor implícito cuando enviamos mensajes.
-
-Ahora bien, ¿quién es `self` dentro de la clase? ¿Te acordás?
-
-> Recordalo probando el siguiente código.
+> Ah, pero ¿quién era `self` dentro de la clase? ¿Te acordás? Recordalo probando el siguiente código.
 >
 > ```ruby
 > class Arco
