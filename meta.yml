@@ -7,10 +7,10 @@ teacher_info: ''
 language: ruby
 id_format: '%05d'
 order:
+- 7
 - 1
 - 2
 - 3
 - 4
 - 6
 - 5
-- 7
