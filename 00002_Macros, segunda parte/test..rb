@@ -1,6 +1,6 @@
 describe "ensure_no_override" do
 
-  it "falla si el método ya existia" do
+  it "falla si el metodo ya existia" do
     class Foo
       def foo
       end
