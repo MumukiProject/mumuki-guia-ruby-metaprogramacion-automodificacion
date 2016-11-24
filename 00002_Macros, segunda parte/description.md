@@ -1,4 +1,4 @@
-Dentro de una clase, `self` es el objeto que representa a dicha clase.
+Como contamos antes, dentro de una clase, `self` es el objeto que representa a dicha clase.
 
 Con lo cual, si definís métodos de clase, vas a poder utilizarlos dentro del cuerpo de la misma. Por ejemplo:
 
