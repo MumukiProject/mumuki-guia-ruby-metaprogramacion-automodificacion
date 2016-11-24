@@ -1,4 +1,4 @@
-Cuando declaramos métodos última linea de un método es su retorno. Por ejemplo:
+Cuando declaramos métodos, la última linea de un método es su retorno. Por ejemplo:
 
 ```ruby
 def x.foo
