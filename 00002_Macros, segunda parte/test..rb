@@ -5,7 +5,7 @@ describe "ensure_no_override" do
       def foo
       end
     end
-    expect { class Foo; ensure_no_override :foo; end }.to raise_error
+    expect { class Foo; ensure_no_override :foo; end }.to raise_error NameError
   end
 
   it "no falla si el metodo no existia" do
