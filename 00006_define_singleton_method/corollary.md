@@ -2,7 +2,7 @@
 
 1. Todos los objetos tienen una clase (¡nada wow!)
 2. Todos los objetos tienen una **autoclase** (también llamada _eigenclass_ o _singleton class_). Esta es una clase que es única y propia de cada objeto (no se comparte entre instancias de la misma clase)
-3. La autoclase es sublclase de la clase del objeto
+3. La autoclase es subclase de la clase del objeto
 4. El method lookup empieza por la autoclase, no por la clase.
 
 Moralejas:
