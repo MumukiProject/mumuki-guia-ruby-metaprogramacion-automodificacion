@@ -11,7 +11,7 @@ end
 Sin embargo, de la misma forma que `def metodo` es azúcar sintáctica sobre `define_method`, `def objeto.metodo` es azúcar sintáctica sobre `objeto.define_singleton_method`: 
 
 ```ruby
-mi_objecto.define_singleton_method nombre do |argumentos|
+mi_objeto.define_singleton_method nombre do |argumentos|
   #...
 end
 ```
